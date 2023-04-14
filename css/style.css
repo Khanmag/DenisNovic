@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #070707;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gilroy-Medium";
+}
+
+p, nav a {
+    font-size: 18px;
+    line-height: 22px;
+}
+h3 {
+    font-size: 34px;
+    line-height: 42px;
+}
+
+
+
+.portfolio article a {
+    display: block;
+}
+/* button.active_lang {
+    color: black;
+    border-left: 2px solid black;
+    padding: 5px;
+} */
+
+
+
+
+

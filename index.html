@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/headerStyles.css">
+    <link rel="stylesheet" href="./css/aboutMeStyles.css">
+    <link rel="stylesheet" href="./css/skillsStyles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about_me">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Potfolio</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <div id="home">
+            <div class="title_block">
+                <h1>Denis<br>Novik</h1>
+                <p class="classic_text">UX | UI designer<br> 24 years old, Minsk</p>
+                <div class="btns">
+                    <button><span>ru</span></button>
+                    <button class="active_lang"><span>eng</span></button>
+                </div>
+            </div>
+            <div class="avatar">
+                <picture>
+                    <source srcset="./localData/portrait.png" media="(max-width: 600px)">
+                    <img src="./localData/landscape.png" alt="Denis's avatar" title="Denis's avatar">
+                </picture>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about_me" id="about_me">
+            <h3>About Me</h3>
+            <p>
+                <span>Hi, I'm Denis – UX/UI designer from Minsk.</span>
+                <span>I'm interested in design and everything connected with it.</span>
+            </p>
+            <p class="delete_when_screen_lower">
+                <span>I'm studying at courses "Web and mobile design</span>
+                <span>interfaces" in IT-Academy.</span>
+            </p>
+            <p class="about_me_fix_text">
+                I'm studying at courses <span>"Web and mobile design interfaces"</span>in IT-Academy.
+            </p>
+            <p>
+                <span>Ready to implement excellent projects</span>
+                <span>with wonderful people.</span>
+            </p>
+        </section>
+        <section class="skills" id="skills">
+            <h3>Skills</h3>
+            <p>I work in such programs as</p>
+            <div class="skills_container">
+                <div>
+                    <img src="./localData/Ps.png" alt="Adobe Photoshop" title="Adobe Photoshop">
+                    <p>Adobe Photoshop</p>
+                    <div>
+                        <img src="./localData/starBlack.png" alt="star">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starGrey.png" alt="..">
+                    </div>
+                </div>
+                <div>
+                    <img src="./localData/Ai.png" alt="Adobe Illustrator" title="Adobe Illustrator">
+                    <p>Adobe Illustrator</p>
+                    <div>
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starGrey.png" alt="..">
+                        <img src="./localData/starGrey.png" alt="..">
+                    </div>
+                </div>
+                <div>
+                    <img src="./localData/Ae.png" alt="Adobe After Effects" title="Adobe After Effects">
+                    <p>Adobe After Effects</p>
+                    <div>
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starGrey.png" alt="..">
+                    </div>
+                </div>
+                <div>
+                    <img src="./localData/Figma.png" alt="Figma" title="Figma">
+                    <p>Figma</p>
+                    <div>
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starBlack.png" alt="..">
+                        <img src="./localData/starGrey.png" alt="..">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="portfolio" class="portfolio">
+
+            <h3>Potfolio</h3>
+            <article>
+                <picture>
+                    <source srcset="./localData/portfolio1small.png" media="(max-width: 400px)">
+                    <img src="./localData/portfolio1.png" alt="1">
+                </picture>
+                <a href="#" target="_blank">Online fashion store - Homepage</a>
+            </article>
+            <article>
+
+            </article>
+            <article>
+
+            </article>
+        </section> -->
+        <!-- <section>
+            <form>
+                <fieldset>
+                    <legend>feedback</legend>
+
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" placeholder="example@mail.com">
+                    </label>
+
+                    <br>
+                    <label>
+                        <span>password</span>
+                        <input type="password" name="pass" placeholder="****" required>
+                    </label>
+
+                    <br>
+                    <label>
+                        <span>Remember me</span>
+                        <input type="checkbox" name="isRemember">
+                    </label>
+                    <br>
+
+                    <button type="submit">submit</button>
+                    <button type="reset">reset</button>
+                </fieldset>
+
+            </form>
+        </section> -->
+    </main>
+    <!-- <footer id="contacts">
+        <h3>Contacts</h3>
+        <p>Want to know more or just chat?<br>You are welcome!</p>
+        <a
+            href="Want to know more or just chat? You are welcome!https://wa.me/79995558844?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%F0%9F%91%8B%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82...">
+            <button>
+                Send message
+            </button>
+        </a>
+        <div>
+            <a href="#">
+                <img src="" alt="">
+            </a>
+            <a href="#">
+                <img src="" alt="">
+            </a>
+            <a href="#">
+                <img src="" alt="">
+            </a>
+            <a href="#">
+                <img src="" alt="">
+            </a>
+        </div>
+        <span>Like me on LinkedIn,<br>Instagram, Behance, Dribble</span>
+
+    </footer> -->
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills h3 {
+
+}
+
+.skills_container {
+    border: 1px solid black;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, 166px);
+    gap: 80px 90px; */
+    max-width: 940px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skills_container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

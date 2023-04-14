@@ -1,0 +1,44 @@
+.about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    width: 100vw;
+}
+.about_me h3 {
+    margin-top: 120px;
+    font-size: 34px;
+    line-height: 42px;
+}
+.about_me > p {
+    max-width: 485px;
+    align-items: center;
+    /* margin-bottom: 42px; */
+    margin: 18px 30px 42px 30px;
+    text-align: center;
+}
+.about_me span {
+    text-align: center;
+    display: block;
+}
+.about_me_fix_text {
+    display: none;
+}
+
+
+@media (max-width: 400px){
+
+    .about_me span {
+        display: inline;
+    }
+    .delete_when_screen_lower {
+        display: none;
+    }
+    .about_me_fix_text {
+        /* color: red; */
+        display: block;
+    }
+    .about_me_fix_text > span {
+        display: block;
+    }
+}
