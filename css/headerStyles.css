@@ -51,11 +51,15 @@ nav .active {
     color: #828282;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 .btns {
     transform: rotate(180deg) translate(0, -10px);
     float: right;
     margin-top: 70px ;
+}
+.btns button.active_lang {
+    color: black;
 }
 
 .btns span {
