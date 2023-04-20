@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/aboutMeStyles.css">
     <link rel="stylesheet" href="./css/skillsStyles.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 
 <body>
@@ -39,9 +40,12 @@
                 </picture>
             </div>
         </div>
+        <button class="open_mobile_menu_btn">
+            <img src="./localData/mobileMenuOpen.png" alt="open mobile menu btn" >
+        </button>
     </header>
     <main>
-        <!-- <section class="about_me" id="about_me">
+        <section class="about_me" id="about_me">
             <h3>About Me</h3>
             <p>
                 <span>Hi, I'm Denis – UX/UI designer from Minsk.</span>
@@ -58,8 +62,8 @@
                 <span>Ready to implement excellent projects</span>
                 <span>with wonderful people.</span>
             </p>
-        </section> -->
-        <!-- <section class="skills" id="skills">
+        </section>
+        <section class="skills" id="skills">
             <h3>Skills</h3>
             <p>I work in such programs as</p>
             <div class="skills_container">
@@ -110,22 +114,29 @@
             </div>
         </section>
         <section id="portfolio" class="portfolio">
-
             <h3>Potfolio</h3>
             <article>
                 <picture>
-                    <source srcset="./localData/portfolio1small.png" media="(max-width: 400px)">
-                    <img src="./localData/portfolio1.png" alt="1">
+                    <source srcset="./localData/portfolio/portfolio1small.png" media="(max-width: 400px)">
+                    <img src="./localData/portfolio/portfolio1big.png" alt="1">
                 </picture>
                 <a href="#" target="_blank">Online fashion store - Homepage</a>
             </article>
             <article>
-
+                <picture>
+                    <source srcset="./localData/portfolio/portfolio2small.png" media="(max-width: 400px)">
+                    <img src="./localData/portfolio/portfolio2big.png" alt="1">
+                </picture>
+                <a href="#" target="_blank">Online fashion store - Homepage</a>
             </article>
             <article>
-
+                <picture>
+                    <source srcset="./localData/portfolio/portfolio3small.png" media="(max-width: 400px)">
+                    <img src="./localData/portfolio/portfolio3big.png" alt="1">
+                </picture>
+                <a href="#" target="_blank">Online fashion store - Homepage</a>
             </article>
-        </section> -->
+        </section>
         <!-- <section>
             <form>
                 <fieldset>
@@ -179,7 +190,7 @@
                 <img src="./localData/links/Dribble.png" alt="Dribble">
             </a>
         </div>
-        <span>Like me on LinkedIn,<br>Instagram, Behance, Dribble</span>
+        <p class="links_text">Like me on<br>LinkedIn,Instagram, Behance, Dribble</p>
 
     </footer>
 

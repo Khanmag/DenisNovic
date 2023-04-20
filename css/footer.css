@@ -1,9 +1,10 @@
 footer {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 footer > h3 {
     font-size: 34px;
@@ -15,6 +16,8 @@ footer > h3 {
 footer > p {
     text-align: center;
 }
+
+
 footer button {
     width: 180px;
     height: 42px;
@@ -33,4 +36,12 @@ footer button {
     height: 41px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+@media (min-width: 800px) {
+    .links_text {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

@@ -6,7 +6,6 @@
 }
 
 .skills_container {
-    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(auto-fit, 166px);
     gap: 80px 90px;
@@ -39,7 +38,6 @@
 .skills_container > div {
     width: 166px;
     height: 206px;
-    background-color: darkgrey;
     justify-content: start;
     position: relative;
 }
@@ -66,4 +64,11 @@
     width: 26px;
     height: 26px;
     object-fit: contain;
+}
+
+
+@media (max-width: 940px) and (min-width: 670px) {
+    .skills_container {
+        grid-template-columns: repeat(2, 166px);
+    }
 }
